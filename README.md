@@ -14,6 +14,8 @@ The project was then load tested using Postman to measure the performance of the
 
 ## Architecture
 
+![AWS Serverless Microservice Architecture](images/serverless-microservice-architecture.png)
+
 The serverless architecture consists of:
 
 - **Amazon API Gateway** – exposes the REST API
