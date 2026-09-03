@@ -39,6 +39,12 @@ The Lambda function contains the application logic for the microservice and uses
 
 [View the Lambda function source code](lambda/lambda_function.py)
 
+### IAM Permissions
+
+The Lambda function uses the `lambda-apigateway-role` execution role. A custom IAM policy provides permissions for DynamoDB operations and CloudWatch Logs.
+
+[View the Lambda IAM policy](iam/lambda-custom-policy.json)
+
 ## Performance Testing
 
 Postman Performance Testing was used to generate concurrent requests against the API.
