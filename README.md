@@ -1,2 +1,2 @@
 # aws-serverless-microservice-performance
-AWS serverless microservice using API Gateway, Lambda and DynamoDB, with Postman load testing and performance optimisation.
+AWS serverless microservice using API Gateway, Lambda and DynamoDB, ..and with POSTMAN 'Load testing' and performance optimisation.
