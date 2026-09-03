@@ -33,6 +33,12 @@ The serverless architecture consists of:
 - DynamoDB table: `lambda-apigateway`
 - DynamoDB partition key: `id`
 
+### Lambda Source Code
+
+The Lambda function contains the application logic for the microservice and uses the AWS SDK for Python (Boto3) to perform operations against DynamoDB.
+
+[View the Lambda function source code](lambda/lambda_function.py)
+
 ## Performance Testing
 
 Postman Performance Testing was used to generate concurrent requests against the API.
