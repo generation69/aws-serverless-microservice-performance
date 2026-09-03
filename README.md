@@ -58,6 +58,10 @@ Results:
 - Average response time: **314 ms**
 - Error rate: **0.00%**
 
+#### Postman Performance Test – 128 MB
+
+![Postman performance test - Lambda 128 MB](images/postman-test-128mb.png)
+
 ### Test 2 – Increased Lambda Memory
 
 Lambda configuration:
@@ -71,6 +75,10 @@ Results:
 - Throughput: **75.01 requests/second**
 - Average response time: **68 ms**
 - Error rate: **0.00%**
+
+#### Postman Performance Test - 1024 MB
+
+![Postman performance test - Lambda 1024 MB](images/postman-test-1024.png)
 
 ## Results
 
